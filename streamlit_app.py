@@ -19,7 +19,7 @@ with col1:
 
 with col2:
     fig=plt.figure
-    plt.scatter([1,2,3], [4,5,6])
+    plt.scatter(el1, el2)
     st.pyplot(fig)
 
 st.dataframe(df)
